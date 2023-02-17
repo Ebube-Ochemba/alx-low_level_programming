@@ -3,7 +3,7 @@
 /**
  * main - A program that prints a line using puts function
  *
- * Return: Always 0 (Succes)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
