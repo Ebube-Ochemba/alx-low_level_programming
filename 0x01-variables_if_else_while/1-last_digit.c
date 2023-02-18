@@ -1,11 +1,13 @@
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <time.h>
 
 /**
- * main - Entry
+ * main - Print a text according to a number
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 
 int main(void)
@@ -25,7 +27,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, lastd);
 	}
-	else
+	else if (last < 6 && lastd != 0)
 	{
 		printf("Last digit of %d is%d and is less than 6 and not 0\n", n lastd);
 	}
