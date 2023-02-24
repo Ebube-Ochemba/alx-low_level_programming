@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - Print the numbers since 0 up to 9
+ * print new line
  * Return: The numbers since 0 up to 9
  */
 
