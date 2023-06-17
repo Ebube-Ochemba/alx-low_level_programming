@@ -13,8 +13,8 @@ int main(void)
 	for (n = 0; n < 26; n++)
 	{
 		putchar('a' + n);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
 
