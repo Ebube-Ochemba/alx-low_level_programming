@@ -12,7 +12,7 @@ int main(void)
 
 	for (x = 0; x < 26; x++)
 	{
-		if ((x == 4 ) || (x == 16))
+		if ((x == 4) || (x == 16))
 		{
 			continue;
 		}
