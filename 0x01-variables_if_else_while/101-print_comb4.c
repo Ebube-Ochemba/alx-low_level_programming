@@ -22,12 +22,16 @@ int main(void)
 				putchar(z);
 				if ((x == 7) && (y == 8) && (z == 9))
 				{
-					putchar('\n');
+					continue;
 				}
 				else if (count < 119)
 				{
 					putchar(',');
 					putchar(' ');
+				}
+				else
+				{
+					putchar('\n');
 				}
 				count++;
 			}
