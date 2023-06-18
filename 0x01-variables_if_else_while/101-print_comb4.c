@@ -24,10 +24,14 @@ int main(void)
 				{
 					putchar('\n');
 				}
-				else if (count < 120)
+				else if (count < 119)
 				{
 					putchar(',');
 					putchar(' ');
+				}
+				else 
+				{
+					putchar('\n');
 				}
 				count++;
 			}
