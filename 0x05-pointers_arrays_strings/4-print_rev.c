@@ -13,7 +13,7 @@ void print_rev(char *s)
 	int length = 0;
 	int reverse;
 
-	/** function to find the length of the string */
+	/** A loop to find the length of the string */
 	while (*s != '\0')
 	{
 		length++;
