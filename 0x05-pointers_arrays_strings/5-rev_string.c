@@ -9,7 +9,8 @@
 
 void rev_string(char *s)
 {
-	int a, temp;
+	int index;
+	char temp;
 	int len = 0;
 
 	/** A loop to find the length of the string */
@@ -19,10 +20,10 @@ void rev_string(char *s)
 	}
 
 	/** A loop to iterate over the string */
-	for (a = 0; a < len / 2; a++)
+	for (index = 0; index < len / 2; index++)
 	{
-		temp = s[a];
-		s[a] = s[len - a - 1];
-		s[len - a - 1] = temp;
+		temp = s[index];
+		s[index] = s[len - index - 1];
+		s[len - index - 1] = temp;
 	}
 }
