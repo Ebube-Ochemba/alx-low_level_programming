@@ -6,7 +6,7 @@
  *           at the end of dest, and then adds a
  *           terminating null byte.
  *
- * @src: The ssource string.
+ * @src: The source string.
  * @dest: The destination string.
  *
  * Return: a pointer to the resulting string dest.
