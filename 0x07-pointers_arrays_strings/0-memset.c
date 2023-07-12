@@ -14,8 +14,10 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int idx;
 
+	/* n must be a positive integer */
 	if (n > 0)
 	{
+		/* iterate over memory */
 		for (idx = 0; idx < n; idx++)
 		{
 			s[idx] = b;
