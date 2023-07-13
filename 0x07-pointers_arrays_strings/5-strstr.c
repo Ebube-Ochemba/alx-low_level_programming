@@ -17,7 +17,7 @@ char *_strstr(char *haystack, char *needle)
 	while (haystack[idx] != '\0')
 	{
 		jdx = 0;
-	
+
 		/* Check for substring match */
 		while (needle[jdx] != '\0' && haystack[idx + jdx] == needle[jdx])
 		{
