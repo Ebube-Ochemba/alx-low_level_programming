@@ -10,13 +10,13 @@
 
 void _puts_recursion(char *s)
 {
-	if (*s != '\0')
+	if (*s != '\0') /* Base Case */
 	{
-		_putchar(*s);
-		_puts_recursion(s + 1);
+		_putchar(*s); /* print char before call */
+		_puts_recursion(s + 1); /* recusive call */
 	}
 	else
 	{
-		_putchar('\n');
+		_putchar('\n'); /* new line */
 	}
 }
