@@ -21,7 +21,7 @@ int _pow_recursion(int x, int y)
 	}
 	else
 	{
-		/* Tail recursive call */
+		/* Non-tail recursive call */
 		return (_pow_recursion(x, y - 1) * x);
 	}
 }
