@@ -13,7 +13,7 @@ int factorial(int n)
 	{
 		return (-1); /* Base case */
 	}
-	else if (n == 0)
+	else if (n >= 0 && n <= 1)
 	{
 		return (1); /* Base case */
 	}
