@@ -1,5 +1,4 @@
 /* excluded these files */
 
 *~
-*.o
-*.c
+functions/
