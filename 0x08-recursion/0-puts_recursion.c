@@ -9,13 +9,13 @@
 
 void _puts_recursion(char *s)
 {
-	if (*s == '\0')
+	if (*s == '\0') /* base case */
 	{
 		_putchar('\n');
 		return;
 	}
 
-	_putchar(*s);
-	s++;
-	_puts_recursion(s);
+	_putchar(*s); /* Print char */
+	s++; /* move pointer */
+	_puts_recursion(s); /* recursice call for next char */
 }
