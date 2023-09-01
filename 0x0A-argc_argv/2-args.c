@@ -12,6 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int idx;
+
 	if (argc > 0)
 	{
 		for (idx = 0; idx < argc; idx++)
