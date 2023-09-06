@@ -15,6 +15,11 @@ char *_strdup(char *str)
 	int idx, len = 0;
 	char *array;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+
 	while (str[len] != '\0')
 	{
 		len++;
