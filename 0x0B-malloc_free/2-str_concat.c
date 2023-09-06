@@ -15,11 +15,11 @@ char *str_concat(char *s1, char *s2)
 	int idx, idy, len1 = 0, len2 = 0;
 	char *array;
 
-	if (s1 == NULL)
+	if (s1 == NULL) /* handle NULL input */
 	{
 		s1 = "";
 	}
-	if (s2 == NULL)
+	if (s2 == NULL) /* handle NULL input */
 	{
 		s2 = "";
 	}
@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 
 	array = malloc(sizeof(char) * (len1 + len2 + 1));
 
-	if (array == NULL)
+	if (array == NULL) /* check malloc */
 	{
 		return (NULL);
 	}
