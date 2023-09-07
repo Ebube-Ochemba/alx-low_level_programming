@@ -31,7 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	len =  (n >= len2) ? len2 : n; /* compare bytes */
 
 	string = malloc(sizeof(char) * (len1 + len + 1));
-	if (string == NULL)
+	if (string == NULL) /* check malloc */
 	{
 		return (NULL);
 	}
