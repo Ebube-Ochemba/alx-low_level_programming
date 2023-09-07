@@ -47,7 +47,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		string[idx] = s2[idy];
 	}
-	string[len1 + n] = '\0'; /* insert NULL char */
+	string[len1 + len] = '\0'; /* insert NULL char */
 
 	return (string);
 }
