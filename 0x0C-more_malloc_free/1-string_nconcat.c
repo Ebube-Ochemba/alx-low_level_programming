@@ -28,14 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		len2++;
 	}
 
-	if (n >= len2) /* compare bytes */
-	{
-		len = len2;
-	}
-	else
-	{
-		len = n;
-	}
+	len =  (n >= len2) ? len2 : n; /* compare bytes */
 
 	string = malloc(sizeof(char) * (len1 + len + 1));
 
