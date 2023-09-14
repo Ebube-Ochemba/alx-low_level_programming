@@ -17,11 +17,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_start(args, n); /* initialize argument list */
 
-	spr = (separator == NULL) ? "" : separator; /* check separator*/
+	spr = (separator == NULL) ? "" : separator; /* check separator */
 
 	for (idx = 0; idx < n; idx++) /* iterate parameters */
 	{
-		/* retrieve argument value and store & print format */
+		/* retrieve argument value, store & print format */
 		check = va_arg(args, int);
 		printf("%d", check);
 
