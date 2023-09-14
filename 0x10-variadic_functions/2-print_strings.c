@@ -26,7 +26,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		check = va_arg(args, char*);
 
 		/* check string */
-		check = (check == NULL) ? "(nill)" : check;
+		check = (check == NULL) ? "(nil)" : check;
 
 		printf("%s", check);
 
