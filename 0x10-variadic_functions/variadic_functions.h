@@ -13,7 +13,7 @@ void print_all(const char * const format, ...);
 /**
  * struct dt - struct
  * @letter: letter signifying data type
- * @func: function ptr
+ * @f: function ptr
  */
 typedef struct dt
 {
