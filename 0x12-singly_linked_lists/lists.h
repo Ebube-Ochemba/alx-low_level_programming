@@ -1,8 +1,9 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stdlib.h>
-#include <string.h>
+#include <stdlib.h> /* size_t, printf */
+#include <stdio.h> /* malloc */
+#include <string.h> /* strup */
 
 /**
  * struct list_s - singly linked list
