@@ -19,10 +19,10 @@ size_t print_list(const list_t *h)
 		}
 		else
 		{
-			printf("[%d] %s\n", h->len, h->str);
+			printf("[%d] %s\n", h->len, h->str); /* print struct members */
 		}
-		count++;
-		h = h->next;
+		count++; /* count each iteration */
+		h = h->next; /* move pointer to next node */
 	}
 	return (count);
 }

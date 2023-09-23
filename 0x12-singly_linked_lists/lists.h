@@ -1,8 +1,8 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stdlib.h> /* size_t, printf */
-#include <stdio.h> /* malloc */
+#include <stdio.h> /* size_t, printf */
+#include <stdlib.h> /* malloc */
 #include <string.h> /* strup */
 
 /**
