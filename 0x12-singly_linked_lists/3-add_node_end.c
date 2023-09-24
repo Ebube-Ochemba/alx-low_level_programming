@@ -29,11 +29,12 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (str == NULL) /* validate input */
 		return (NULL);
-	if (strdup(str) == NULL) /* check if malloc errored */
+
+	if (strdup(str) == NULL) /* check for malloc error */
 		return (NULL);
 
 	new_node = malloc(sizeof(list_t)); /* malloc for new node */
-	if (new_node == NULL)
+	if (new_node == NULL) /* check malloc */
 		return (NULL);
 
 	new_node->str = strdup(str); /* set node values */
@@ -41,14 +42,18 @@ list_t *add_node_end(list_t **head, const char *str)
 	new_node->next = NULL;
 
 	if (*head == NULL) /* if no list nodes, set new_node to beginning */
+	{
 		*head = new_node;
-	else
+	}
+	else /* iterate till last node */
 	{
 		tmp = *head;
 
-		while (tmp->next != NULL)
+		while (tmp->next != NULL) /* search for NULL byte */
+		{
 			tmp = tmp->next;
-		tmp->next = new_node;
+		}
+		tmp->next = new_node; /* update *next of last node */
 	}
 
 	return (new_node);
