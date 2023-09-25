@@ -2,7 +2,7 @@
 
 /**
  * free_listint2 - free linked list
- * @head: a double pointer to a linked list
+ * @head: A double pointer to a linked list.
  *
  * Return: Void.
  */
