@@ -2,7 +2,9 @@
 
 /**
  * free_list - free linked list
- * @head: linked list
+ * @head: linked list.
+ *
+ * Return: void.
  */
 
 void free_list(list_t *head)
