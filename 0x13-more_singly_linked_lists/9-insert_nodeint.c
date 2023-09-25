@@ -19,9 +19,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	new_node = malloc(sizeof(listint_t)); /* allocate memory */
 	if (new_node == NULL) /* malloc check */
-	{
 		return (NULL);
-	}
 
 	new_node->n = n; /* Update node member */
 
@@ -40,7 +38,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		count++; /* count nodes */
 	}
 
-	if (current == NULL || current->next == NULL) /* idx doesn't exist */
+	/* invalid idx */
+	if (current == NULL || current->next == NULL || count < idx - 1)
 	{
 		free(new_node);
 		return (NULL);
