@@ -11,20 +11,20 @@ listint_t *reverse_listint(listint_t **head)
 {
 	listint_t *previous, *current;
 
-	if (*head == NULL)
+	if (*head == NULL) /* check pointer */
 		return (NULL);
 
-	current = *head; /* temporarily store current node */
+	current = *head; /* temporarily store first node */
 	previous = NULL; /* initialize previous */
 
 	while (current != NULL)
 	{
-		*head = current->next; /* store next node */
-		current->next = previous; /* Reverse current node's pointer */
-		previous = current; /* move previous one step ahead */
+		*head = current->next; /* track next node */
+		current->next = previous; /* link current node's ptr to prev node */
+		previous = current; /* update previous node to be current node */
 		current = *head; /* move current one step ahead */
 	}
-	*head = previous; /* set new head */
+	*head = previous; /* unlink last element from null and point backwards */
 
 	return (*head);
 }
