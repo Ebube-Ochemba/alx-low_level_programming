@@ -38,8 +38,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		count++; /* count nodes */
 	}
 
-	/* invalid idx */
-	if (current == NULL || current->next == NULL)
+	/* if idx is invalid */
+	if (current == NULL || current->next == NULL || count != idx)
 	{
 		free(new_node);
 		return (NULL);
