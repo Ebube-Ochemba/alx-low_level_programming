@@ -21,7 +21,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	if (new_node == NULL) /* malloc check */
 		return (NULL);
 
-	new_node->n = n; /* Update node member */
+	new_node->n = n; /* update node member */
 
 	if (idx == 0) /* assign new_node as head */
 	{
@@ -38,8 +38,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		count++; /* count nodes */
 	}
 
-	/* if idx is invalid */
-	if (current == NULL)
+	if (current == NULL) /* if idx is invalid and current is last node */
 	{
 		free(new_node);
 		return (NULL);
