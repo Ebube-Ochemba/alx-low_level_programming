@@ -32,7 +32,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	current = *head; /* temporarily store current node */
 
-	while (current != NULL && count < idx) /* find valid idx */
+	while (current != NULL && count < idx - 1) /* find valid idx */
 	{
 		current = current->next; /* move to next node */
 		count++; /* count nodes */
