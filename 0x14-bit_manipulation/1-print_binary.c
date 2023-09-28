@@ -13,10 +13,22 @@ void print_binary(unsigned long int n)
 
 	bit = 1;
 
-	while (bit < n) /* shift bit to left till its > n */
+	if (n == 0) /* special case */
+	{
+		_putchar('0');
+		return;
+	}
+	else if (n == 1) /* special case */
+	{
+		_putchar('1');
+		return;
+	}
+
+	while (bit <= n) /* shift bit to left till its >= n */
 	{
 		bit = bit << 1; /* bit = bit * 2 */
 	}
+	bit = bit >> 1; /* shift bit one position to the right */
 
 	while (bit > 0)
 	{
