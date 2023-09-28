@@ -11,8 +11,6 @@ void print_binary(unsigned long int n)
 {
 	unsigned int bit;
 
-	bit = 1;
-
 	if (n == 0) /* special case */
 	{
 		_putchar('0');
@@ -23,6 +21,8 @@ void print_binary(unsigned long int n)
 		_putchar('1');
 		return;
 	}
+
+	bit = 1;
 
 	while (bit <= n) /* shift bit to left till its >= n */
 	{
