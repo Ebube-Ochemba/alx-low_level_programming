@@ -1,0 +1,33 @@
+#include "main.h"
+
+/**
+ * print_binary - Prints the binary representation of a number.
+ * @n: The number to be converted.
+ *
+ * Return: void.
+ */
+
+void print_binary(unsigned long int n)
+{
+	unsigned int bit;
+
+	bit = 1;
+
+	while (bit < n) /* shift bit to left till its > n */
+	{
+		bit = bit << 1; /* bit = bit * 2 */
+	}
+
+	while (bit > 0)
+	{
+		if (n & bit) /* if current bit in n is set */
+		{
+			_putchar('1');
+		}
+		else
+		{
+			_putchar('0');
+		}
+		bit = bit >> 1; /* bit = bit / 2 */
+	}
+}
