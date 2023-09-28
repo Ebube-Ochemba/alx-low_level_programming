@@ -11,9 +11,6 @@ void print_binary(unsigned long int n)
 {
 	unsigned int bit;
 
-	if (n < 0)
-		return;
-
 	if (n == 0) /* special case */
 	{
 		_putchar('0');
