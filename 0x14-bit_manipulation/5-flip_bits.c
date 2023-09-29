@@ -11,12 +11,8 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned int bit_count, xor_result;
-
-	if ((n == 0 && m == 0) || n == m)
-	{
-		return (0);
-	}
+	unsigned int bit_count;
+	unsigned long int xor_result;
 
 	xor_result = n ^ m; /* XOR to get unidentical bits */
 
