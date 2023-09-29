@@ -14,7 +14,6 @@ int get_bit(unsigned long int n, unsigned int index)
 
 	/* calculate #bits in an unsigned long int & convert to bits */
 	num_bits = (sizeof(unsigned long int) * 8);
-
 	if (index > num_bits) /* check if index is valid */
 	{
 		return (-1);
