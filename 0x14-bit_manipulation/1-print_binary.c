@@ -24,7 +24,7 @@ void print_binary(unsigned long int n)
 
 	bit = 1;
 
-	while (bit <= (n / 2)) /* shift bit to left till its > n/2, ULONG_MAX */
+	while (bit <= n) /* shift bit to left till its > n, ULONG_MAX */
 	{
 		bit = bit << 1; /* bit = bit * 2 */
 	}
