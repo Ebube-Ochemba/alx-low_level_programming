@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * create_file - Creates a file.
+ * append_text_to_file - Appends text at the end of a file.
  * @filename: The name of the file to be created.
  * @text_content: A string(buffer) to write to the file.
  *
  * Return: 1 on success, -1 on failure.
  */
 
-int create_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd, len, written;
 
 	if (filename == NULL) /* check file */
 		return (-1);
 
-	fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
+	fd = open(filename, O_APPEND | O_WRONLY);
 	if (fd == -1) /* check open call */
 		return (-1);
 
@@ -24,6 +24,7 @@ int create_file(const char *filename, char *text_content)
 		close(fd);
 		return (1);
 	}
+
 	/* calc buffer length */
 	for (len = 0; text_content[len] != '\0'; len++)
 		;
