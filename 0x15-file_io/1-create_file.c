@@ -10,23 +10,29 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd, len;
+	int fd, len, written;
 
 	if (filename == NULL) /* check file */
 		return (-1);
 
-	fd = open(filename, O_CREAT | O_TRUNC | S_IRUSR | S_IWUSR);
+	fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
 	if (fd == -1) /* check open call */
 		return (-1);
 
-	if (text_content != NULL) /* check buffer */
+	if (text_content == NULL) /* check buffer */
 	{
-		/* calc buffer length */
-		for (len = 0; text_content[len] != '\0'; len++)
-			;
+		close(fd);
+		return (1);
+	}
+	/* calc buffer length */
+	for (len = 0; text_content[len] != '\0'; len++)
+		;
 
-		if (write(fd, text_content, len) == -1) /* Check write */
-			return (-1);
+	written = write(fd, text_content, len); /* write */
+	if (written == -1 || written != len)
+	{
+		close(fd);
+		return (-1);
 	}
 
 	close(fd);
