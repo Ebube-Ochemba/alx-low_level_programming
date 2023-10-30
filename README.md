@@ -1,6 +1,7 @@
 # Low Level Programming & Algorithms
 
 > This repository contains programs written for the Low-Level Programming track at Alx.
+> I covers Data structures and Algorithms as well as Linux and Unix system programming.
 
 ## Description
 
