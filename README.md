@@ -33,7 +33,7 @@ In this repository, each folder illustrates an essential concept of programming,
 ## Environment
 
 - Language: C
-- OS: Ubuntu 14.04 LTS
+- OS: Ubuntu 20.04 LTS
 - Compiler: gcc 4.8.4
 - Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)
 
