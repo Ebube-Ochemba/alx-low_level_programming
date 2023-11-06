@@ -14,7 +14,7 @@ listint_t *find_listint_loop(listint_t *head)
 	/* start both at head */
 	/* : move hare by 2 paces(nodes) & tortoise by 1 pace(node)  */
 
-	turtle = hare = head; /* start */
+	tortoise = hare = head; /* start */
 
 	while (tortoise != NULL && hare != NULL) /* find loop */
 	{
