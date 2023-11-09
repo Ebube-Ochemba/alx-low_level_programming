@@ -20,6 +20,11 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 
 	new_node->n = n; /* Update node member */
 	new_node->next = *head; /* assign address of head node to new_node *next */
+	new_node->prev = NULL; /* update pointer to previous node */
+	if (*head) /* check if head is valid & update pointer */
+	{
+		(*head)->prev = new_node;
+	}
 	*head = new_node; /* update head of list to new_node */
-	return (*head);
+	return (new_node);
 }
