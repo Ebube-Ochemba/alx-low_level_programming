@@ -23,7 +23,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		if (current != NULL)
 			current->prev = NULL;
 		free(*head);
-		*head = new_node; /* update head */
+		*head = current; /* update head */
 		return (1);
 	}
 
