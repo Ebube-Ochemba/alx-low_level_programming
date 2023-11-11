@@ -23,10 +23,10 @@ I learnt about variable scope in C, nested loops, using standard header files an
 - [10-add.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/10-add.c): Adds two integers and returns the result.
 - [11-print_to_98.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/11-print_to_98.c): Prints all natural numbers from `n` to 98, separated by a comma, followed by a new line.
 - [100-times_table.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/100-times_table.c): Function that prints the n times table, starting with 0, if 0 <= `n` <= 15.
-- [](): Computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line. Allowed to use the standard library.
-- [](): Prints the first 50 Fibonacci numbers, starting with 1 and 2, separated by comma, followed by a new line. Allowed to use the standard library.
-- [](): Finds and prints the sum of the even-valued terms in the Fibonacci sequence whose values do not exceed 4,000,000, followed by a new line. Allowed to use the standard library.
-- [](): Finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line. Allowed to use the standard library.
+- [101-natural.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/101-natural.c): Computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line. Allowed to use the standard library.
+- [102-fibonacci.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/102-fibonacci.c): Prints the first 50 Fibonacci numbers, starting with 1 and 2, separated by comma, followed by a new line. Allowed to use the standard library.
+- [103-fibonacci.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/103-fibonacci.c): Finds and prints the sum of the even-valued terms in the Fibonacci sequence whose values do not exceed 4,000,000, followed by a new line. Allowed to use the standard library.
+- [104-fibonacci.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/104-fibonacci.c): Finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line. Allowed to use the standard library.
 
 > - [test_files](): A folder of test files. Provided by Alx.
 > - [`_putchar.c`](https://github.com/alx-tools/_putchar.c/blob/master/_putchar.c): A custom C function that writes a character to `stdout`, provided by Alx.
