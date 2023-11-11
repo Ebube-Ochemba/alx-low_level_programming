@@ -29,4 +29,5 @@ I learnt more about nested loops and `gcc` flags `-Wall` `-Werror` `-pedantic` `
 - [100-prime_factor.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/100-prime_factor.c): Prints the largest prime factor of the number `612852475143`, followed by a new line.
 - [101-print_number.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/101-print_number.c): Prints an integer without using `long`, arrays, pointers, or hard-coded special values.
 
+> - [main.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/main.h): A Header file containing prototypes for all functions written in the project.
 > - [test_files](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops/test_files): A folder of test files. Provided by Alx.
