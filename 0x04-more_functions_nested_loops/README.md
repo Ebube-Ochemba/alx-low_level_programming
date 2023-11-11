@@ -8,7 +8,7 @@ I learnt more about nested loops and `gcc` flags `-Wall` `-Werror` `-pedantic` `
 
 ## Requirements
 
-- Standard libraries are not allowed. _printf, puts, etc_.
+- Standard libraries are not allowed. `printf`, `puts`, etc.
 - Allowed to use [`_putchar`](https://github.com/alx-tools/_putchar.c/blob/master/_putchar.c): A C custom function that writes a character to `stdout`, provided by Alx.
 
 ## Files
