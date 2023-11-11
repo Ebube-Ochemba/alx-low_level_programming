@@ -1,4 +1,4 @@
-# More pointers, arrays and strings
+# C - More pointers, arrays and strings
 
 > This project was on more pointers, arrays and string.
 
