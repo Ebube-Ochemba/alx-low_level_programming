@@ -1,10 +1,10 @@
 # C - Pointers, arrays and strings
 
-> This project was an introduction to
+> This project was an introduction to pointers, arrays and strings.
 
 ## Summary
 
-I learnt about...
+I learnt about pointers, arrays, strings and how to use them.
 
 ## Requirements
 
