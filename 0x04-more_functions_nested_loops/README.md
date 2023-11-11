@@ -6,6 +6,11 @@
 
 I learnt more about nested loops and `gcc` flags `-Wall` `-Werror` `-pedantic` `-Wextra` `-std=gnu89`.
 
+## Requirements
+
+- Standard libraries are not allowed. _printf, puts, etc_.
+- Allowed to use [`_putchar`](https://github.com/alx-tools/_putchar.c/blob/master/_putchar.c): A C custom function that writes a character to `stdout`, provided by Alx.
+
 ## Files
 
 > Each file contains the solution to a task in the project.
@@ -25,4 +30,3 @@ I learnt more about nested loops and `gcc` flags `-Wall` `-Werror` `-pedantic` `
 - [101-print_number.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/101-print_number.c): Prints an integer without using `long`, arrays, pointers, or hard-coded special values.
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops/test_files): A folder of test files. Provided by Alx.
-> - [`_putchar.c`](https://github.com/alx-tools/_putchar.c/blob/master/_putchar.c): A C custom function that writes a character to `stdout`, provided by Alx.
