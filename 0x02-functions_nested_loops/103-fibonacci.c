@@ -5,11 +5,12 @@
   */
 int main(void)
 {
-	unsigned long count, f, s, fib;
+	unsigned long count, f, s, fib, sum;
 
 	f = 0;
 	s = 1;
-	sums = 0;
+	sum = 0;
+
 	for (count = 0; count < 50; count++)
 	{
 		fib = f + s;
@@ -18,9 +19,9 @@ int main(void)
 
 		if (fib % 2 == 0 && fib < 4000000)
 		{
-			sum+= fib;
+			sum += fib;
 		}
 	}
-	printf("%lu\n", sums);
+	printf("%lu\n", sum);
 	return (0);
 }
