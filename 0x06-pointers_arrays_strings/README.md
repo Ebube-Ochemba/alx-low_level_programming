@@ -1,10 +1,10 @@
 # More pointers, arrays and strings
 
-> This project was on 
+> This project was on more pointers, arrays and string.
 
 ## Summary
 
-I learnt about...
+I learnt more about pointers, arrays and string.
 
 ## Requirements
 
@@ -23,14 +23,11 @@ C custom function that writes a character to `stdout`, provided by Alx.
 - [4-rev_array.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/4-rev_array.c):
 - [5-string_toupper.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/5-string_toupper.c):
 - [6-cap_string.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/6-cap_string.c):
-- []():
-- []():
-- []():
-- []():
-- []():
-- []():
-- []():
-- []():
+- [7-leet.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/7-leet.c):
+- [100-rot13.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/100-rot13.c):
+- [101-print_number.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/101-print_number.c):
+- [102-magic.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/102-magic.c):
+- [103-infinite_add.c)](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/103-infinite_add.c):
 
 > - [main.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/main.h): A Header file containing prototypes for all functions written in the project.
 > - [test_files](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings/test_files): A folder of test files. Provided by Alx.
