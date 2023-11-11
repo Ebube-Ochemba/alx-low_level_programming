@@ -32,7 +32,7 @@ C custom function that writes a character to `stdout`, provided by Alx.
 - [102-magic.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/102-magic.c): Prints `a[2] = 98` using pointer magic.
 	- incomplete [source code](https://github.com/alx-tools/make_magic_happen/blob/master/magic.c).
 - [103-infinite_add.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/103-infinite_add.c): Adds two numbers stored in strings to a buffer.
--[104-print_buffer.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/104-print_buffer.c): Prints the content of an inputted number of bytes from a buffer.
+- [104-print_buffer.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/104-print_buffer.c): Prints the content of an inputted number of bytes from a buffer.
 	- Prints 10 bytes per line.
 	- Starts with the position of the first byte in hexadecimal (8 chars), starting with `0`.
 	- Each line shows the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space.
