@@ -1,10 +1,10 @@
-# x
+# C - Even more pointers, arrays and strings
 
-> This project was on 
+> This project was on more pointers, arrays and string. 
 
 ## Summary
 
-I learnt about...
+I learnt about multidimensional arrays and how to use them.
 
 ## Requirements
 
