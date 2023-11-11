@@ -6,6 +6,11 @@
 
 I learnt about; variables and how to declare them and assign values to them, Keywords and identifiers. Arithmetic, logical, relational, and boolean operators in C and how to use them. Implementing `if`, `if ... else` statements as well as `while` loops. Also, more about the `gcc` and the `-m32` and `-m64` flags, comments in code and using a linter.
 
+## Requirements
+
+- Standard libraries are not allowed, except specified. `printf`, `puts`, etc.
+- Allowed to use [`_putchar`](https://github.com/alx-tools/_putchar.c/blob/master/_putchar.c): A C custom function that writes a character to `stdout`, provided by Alx.
+
 ## Files
 
 > Each file contains the solution to a task in the project.
