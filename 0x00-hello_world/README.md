@@ -20,4 +20,4 @@ I learnt about who invented C, the "entry point" in a program, what is `main`, h
 - [100-intel](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x00-hello_world/100-intel): bash script that generates the assembly code (Intel syntax) of a C file, saved in the variable `$CFILE`. The output file will be named the same as the C file, but with the extension `.s` instead of `.c`.
 - [101-quote.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x00-hello_world/101-quote.c): a C program that prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error without using any functions listed in the `NAME` section of `man (3) printf` or `man (3) puts`.
 
-> - [test_files](): A folder of test files. Provided by Alx.
+> - [test_files](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x00-hello_world/test_files): A folder of test files. Provided by Alx.
