@@ -6,6 +6,12 @@
 
 I learnt about variable scope in C, nested loops, using standard header files and defining custom ones as well. Also, declaring and defining functions and also using them.
 
+## Requirements
+
+- Standard libraries are not allowed, except specified. `printf`, `puts`, etc.
+- Allowed to use [`_putchar`](https://github.com/alx-tools/_putchar.c/blob/master/_putchar.c): A
+C custom function that writes a character to `stdout`, provided by Alx.
+
 ## Files
 
 > Each file contains the solution to a task in the project.
@@ -29,4 +35,3 @@ I learnt about variable scope in C, nested loops, using standard header files an
 - [104-fibonacci.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/104-fibonacci.c): Finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line. Allowed to use the standard library.
 
 > - [test_files](): A folder of test files. Provided by Alx.
-> - [`_putchar.c`](https://github.com/alx-tools/_putchar.c/blob/master/_putchar.c): A custom C function that writes a character to `stdout`, provided by Alx.
