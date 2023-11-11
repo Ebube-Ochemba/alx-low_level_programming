@@ -34,4 +34,5 @@ C custom function that writes a character to `stdout`, provided by Alx.
 - [103-fibonacci.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/103-fibonacci.c): Finds and prints the sum of the even-valued terms in the Fibonacci sequence whose values do not exceed 4,000,000, followed by a new line. Allowed to use the standard library.
 - [104-fibonacci.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/104-fibonacci.c): Finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line. Allowed to use the standard library.
 
+> - [main.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x02-functions_nested_loops/main.h): A Header file containing prototypes for all functions written in the project.
 > - [test_files](): A folder of test files. Provided by Alx.
