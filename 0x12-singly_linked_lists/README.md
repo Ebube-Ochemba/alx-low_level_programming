@@ -1,1 +1,36 @@
-0x12. C - Singly linked lists
+# C - Singly linked lists
+
+> This project was an introduction to singly linked lists.
+
+## Summary
+
+I learnt about...
+
+## Requirements
+
+- Standard libraries are not allowed, except specified. `printf`, `puts`, etc.
+- Allowed to use [`_putchar`](https://github.com/alx-tools/_putchar.c/blob/master/_putchar.c): A
+C custom function that writes a character to `stdout`, provided by Alx.
+
+## Files
+
+> Each file contains the solution to a task in the project.
+
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+
+> - [lists.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x12-singly_linked_lists/lists.h): A Header file containing prototypes for all functions written in the project.
+> - [test_files](): A folder of test files. Provided by Alx.
