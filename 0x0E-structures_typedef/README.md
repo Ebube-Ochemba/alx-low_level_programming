@@ -16,11 +16,10 @@ C custom function that writes a character to `stdout`, provided by Alx.
 
 > Each file contains the solution to a task in the project.
 
-- [1-init_dog.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/1-init_dog.c):
-- [2-print_dog.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/2-print_dog.c):
-- [3-main.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/3-main.c):
-- [4-new_dog.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/4-new_dog.c):
-- [5-free_dog.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/5-free_dog.c):
-- [dog.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/dog.h): A Header file containing prototypes for all functions written in the project.
+- [1-init_dog.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/1-init_dog.c): Initializes a variable of type `struct dog`.
+- [2-print_dog.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/2-print_dog.c): Prints a `struct dog`.
+- [4-new_dog.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/4-new_dog.c): Creates a new `dog_t`.
+- [5-free_dog.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/5-free_dog.c): rees a `dog_t`.
+- [dog.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0E-structures_typedef/dog.h): A header file with function prototypes, `struct dog`, and type `dog_t` as a new name for the type `struct dog`.
 
-> - [test_files](): A folder of test files. Provided by Alx.
+> - [test_files](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x0E-structures_typedef/test_files): A folder of test files. Provided by Alx.
