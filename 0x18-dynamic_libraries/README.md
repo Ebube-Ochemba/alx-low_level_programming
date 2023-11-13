@@ -16,9 +16,9 @@ C custom function that writes a character to `stdout`, provided by Alx.
 
 > Each file contains the solution to a task in the project.
 
-- []():
-- []():
-- [main.h](): A Header file containing prototypes for all functions used in the project.
+- [libdynamic.so]():
+- [1-create_dynamic_lib.sh]():
+- [main.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x18-dynamic_libraries/main.h): A Header file containing prototypes for all functions used in the project.
 
 > - [test_files](): A folder of test files. Provided by Alx.
-> - [functions](): A folder of functions for the task.
+> - [functions](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x18-dynamic_libraries/functions): A folder of functions for the task.
