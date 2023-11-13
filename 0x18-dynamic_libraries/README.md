@@ -18,7 +18,7 @@ C custom function that writes a character to `stdout`, provided by Alx.
 
 - [libdynamic.so](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x18-dynamic_libraries/libdynamic.so): A Dynamic library containing all the functions used in this task.
 - [1-create_dynamic_lib.sh](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x18-dynamic_libraries/1-create_dynamic_lib.sh): A Bash script that creates a dynamic library called `liball.so` from all the`.c` files in the current directory.
-- [main.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x18-dynamic_libraries/main.h): A Header file containing prototypes for all functions used in the project.
+- [main.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x18-dynamic_libraries/main.h): A Header file containing prototypes for all functions used in the [libdynamic.so](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x18-dynamic_libraries/libdynamic.so) task.
 - [100-operations.so](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x18-dynamic_libraries/100-operations.so): A dynamic library that contains C functions that can be called from Python.
 - [101-make_me_win.sh](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x18-dynamic_libraries/101-make_me_win.sh):
 
