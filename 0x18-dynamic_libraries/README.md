@@ -16,9 +16,9 @@ C custom function that writes a character to `stdout`, provided by Alx.
 
 > Each file contains the solution to a task in the project.
 
-- [libdynamic.so]():
-- [1-create_dynamic_lib.sh]():
+- [libdynamic.so](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x18-dynamic_libraries/libdynamic.so): A Dynamic library containing all the functions used in this project.
+- [1-create_dynamic_lib.sh](): A Bash script that creates a dynamic library called `liball.so` from all the`.c` files in the current directory.
 - [main.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x18-dynamic_libraries/main.h): A Header file containing prototypes for all functions used in the project.
 
-> - [test_files](): A folder of test files. Provided by Alx.
+> - [test_files](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x18-dynamic_libraries/test_files): A folder of test files. Provided by Alx.
 > - [functions](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x18-dynamic_libraries/functions): A folder of functions for the task.
