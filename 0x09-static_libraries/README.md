@@ -16,7 +16,7 @@ C custom function that writes a character to `stdout`, provided by Alx.
 
 > Each file contains the solution to a task in the project.
 
-- [create_static_lib.sh)](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh): Bash script that creates a static library called `liball.a` from all the `.c` files in the current directory.
+- [create_static_lib.sh](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh): Bash script that creates a static library called `liball.a` from all the `.c` files in the current directory.
 - [libmy.a](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x09-static_libraries/libmy.a): A static library containing all the functions used in the project.
 - [main.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x09-static_libraries/main.h): A Header file containing prototypes for all functions used in the project.
 
