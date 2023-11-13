@@ -4,7 +4,7 @@
 
 ## Summary
 
-I learnt about dynamic libraries, how they work, how to create and use them, the differences between static and shared libraries. Also, the environment variable `$LD_LIBRARY_PATH` and how to use it and how to use `nm`, `ldd`, `ldconfig`.
+I learnt about dynamic libraries, how they work, how to create and use them, the differences between static and dynamic (shared) libraries. Also, the environment variable `$LD_LIBRARY_PATH` and how to use it and how to use `nm`, `ldd`, `ldconfig`.
 
 ## Requirements
 
