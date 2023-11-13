@@ -5,6 +5,7 @@
 ## Summary
 
 I learnt about static libraries, how they work, how to create one using `ar`, `ranlib`, `nm` and how to use them.
+
 ## Requirements
 
 - Standard libraries are not allowed, except specified. `printf`, `puts`, etc.
