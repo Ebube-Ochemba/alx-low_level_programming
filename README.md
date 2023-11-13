@@ -31,7 +31,7 @@ In this repository, each folder illustrates an essential concept of programming,
 - [0x14. C - Bit manipulation](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x14-bit_manipulation)
 - [0x15. C - File I/O](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x15-file_io)
 - [0x17. C - Doubly linked lists](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x17-doubly_linked_lists)
-- []()
+- [0x18. C - Dynamic libraries](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x18-dynamic_libraries)
 
 ## Environment
 
