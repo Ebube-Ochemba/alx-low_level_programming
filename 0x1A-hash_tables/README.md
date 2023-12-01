@@ -8,9 +8,7 @@ I learnt about hash functions, hash tables, how do they work and how to use them
 
 ## Requirements
 
-- Standard libraries are not allowed, except specified. `printf`, `puts`, etc.
-- Allowed to use [`_putchar`](https://github.com/alx-tools/_putchar.c/blob/master/_putchar.c): A
-C custom function that writes a character to `stdout`, provided by Alx.
+- Standard libraries are not allowed, except specified.
 
 ## Files
 
