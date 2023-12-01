@@ -25,5 +25,5 @@ C custom function that writes a character to `stdout`, provided by Alx.
 - [6-hash_table_delete.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/6-hash_table_delete.c):
 - [](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/):
 
-> - [hash_tables.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/hash_tables..h): A Header file containing prototypes for all functions written in the project.
+> - [hash_tables.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/hash_tables.h): A Header file containing prototypes for all functions written in the project.
 > - [test_files](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/test_files): A folder of test files. Provided by Alx.
