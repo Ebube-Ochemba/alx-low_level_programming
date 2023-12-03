@@ -21,7 +21,7 @@ I learnt about hash functions, hash tables, how do they work and how to use them
 - [4-hash_table_get.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/4-hash_table_get.c):
 - [5-hash_table_print.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/5-hash_table_print.c):
 - [6-hash_table_delete.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/6-hash_table_delete.c):
-- [](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/):
+- [100-sorted_hash_table.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/100-sorted_hash_table.c):
 
 > - [hash_tables.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/hash_tables.h): A Header file containing prototypes for all functions written in the project.
 > - [test_files](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1A-hash_tables/test_files): A folder of test files. Provided by Alx.
