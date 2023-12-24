@@ -26,17 +26,17 @@ In this repository, each folder illustrates an essential concept of programming,
 - [0x0E. C - Structures, typedef](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x0E-structures_typedef)
 - [0x0F. C - Function pointers](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x0F-function_pointers)
 - [0x10. C - Variadic functions](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x10-variadic_functions)
-- [0x11. C - printf](https://github.com/Ebube-Ochemba/printf)
+- [0x11. C - printf](https://github.com/Ebube-Ochemba/printf): `colaboration`
 - [0x12. C - Singly linked lists](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x12-singly_linked_lists)
 - [0x13. C - More singly linked lists](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)
 - [0x14. C - Bit manipulation](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x14-bit_manipulation)
 - [0x15. C - File I/O](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x15-file_io)
-- [0x16. C - Simple Shell](https://github.com/nour-rayann/simple_shell)
+- [0x16. C - Simple Shell](https://github.com/nour-rayann/simple_shell): `colaboration`
 - [0x17. C - Doubly linked lists](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x17-doubly_linked_lists)
 - [0x18. C - Dynamic libraries](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x18-dynamic_libraries)
-- [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/Ebube-Ochemba/monty)
+- [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/Ebube-Ochemba/monty): `colaboration`
 - [0x1A. C - Hash tables](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x1A-hash_tables)
-- [0x1B. C - Sorting algorithms & Big O](https://github.com/Ebube-Ochemba/sorting_algorithms)
+- [0x1B. C - Sorting algorithms & Big O](https://github.com/Ebube-Ochemba/sorting_algorithms): `colaboration`
 
 ## Environment
 
