@@ -28,7 +28,7 @@ C custom function that writes a character to `stdout`, provided by Alx.
 	- `int op_mod(int a, int b)` - returns the remainder of the division of `a` by `b`.
 - [x] [3-main.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/3-main.c): Performs simple operations passed in as parameters.
 - [x] [3-op_functions.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c): Selects the correct function from `3-op_functions.c` to perform the operation asked by the user.
-- [x] [100-main_opcodes.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/100-main_opcodes.c): Prints the `opcodes` of its own main function, followed by a new line.
+- [ ] [100-main_opcodes.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/100-main_opcodes.c): Prints the `opcodes` of its own main function, followed by a new line.
 	- Usage: `./main number_of_bytes`
 	- Opcodes are printed two-decimal long in hexadecimal, lowercase.
 	- each opcode is two char long.
