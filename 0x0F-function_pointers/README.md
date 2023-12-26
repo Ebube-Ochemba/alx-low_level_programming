@@ -16,19 +16,19 @@ C custom function that writes a character to `stdout`, provided by Alx.
 
 > Each file contains the solution to a task in the project.
 
-- [0-print_name.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/0-print_name.c): Prints a name using a function given as a parameter.
-- [1-array_iterator.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/1-array_iterator.c): Executes a function given as a parameter on each element of an array.
-- [2-int_index.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/2-int_index.c): Searches for an integer using a comparative function given as a parameter.
-- [3-calc.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/3-calc.h): A header file for `3-main.c`, `3-op_functions.c`, and `3-get_op_func.c`.
-- [3-get_op_func.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/3-get_op_func.c): contains the following 5 functions:
+- [x] [0-print_name.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/0-print_name.c): Prints a name using a function given as a parameter.
+- [x] [1-array_iterator.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/1-array_iterator.c): Executes a function given as a parameter on each element of an array.
+- [x] [2-int_index.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/2-int_index.c): Searches for an integer using a comparative function given as a parameter.
+- [x] [3-calc.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/3-calc.h): A header file for `3-main.c`, `3-op_functions.c`, and `3-get_op_func.c`.
+- [x] [3-get_op_func.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/3-get_op_func.c): contains the following 5 functions:
 	- `int op_add(int a, int b)` - returns the sum of `a` and `b`.
 	- `int op_sub(int a, int b)` - returns the difference of `a` and `b`.
 	- `int op_mul(int a, int b)` - returns the product of `a` and `b`.
 	- `int op_div(int a, int b)` - returns the result of the division of `a` by `b`.
 	- `int op_mod(int a, int b)` - returns the remainder of the division of `a` by `b`.
-- [3-main.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/3-main.c): Performs simple operations passed in as parameters.
-- [3-op_functions.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c): Selects the correct function from `3-op_functions.c` to perform the operation asked by the user.
-- [100-main_opcodes.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/100-main_opcodes.c): Prints the `opcodes` of its own main function, followed by a new line.
+- [x] [3-main.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/3-main.c): Performs simple operations passed in as parameters.
+- [x] [3-op_functions.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c): Selects the correct function from `3-op_functions.c` to perform the operation asked by the user.
+- [x] [100-main_opcodes.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0F-function_pointers/100-main_opcodes.c): Prints the `opcodes` of its own main function, followed by a new line.
 	- Usage: `./main number_of_bytes`
 	- Opcodes are printed two-decimal long in hexadecimal, lowercase.
 	- each opcode is two char long.
