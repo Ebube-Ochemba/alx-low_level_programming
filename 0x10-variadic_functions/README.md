@@ -16,14 +16,14 @@ C custom function that writes a character to `stdout`, provided by Alx.
 
 > Each file contains the solution to a task in the project.
 
-- [0-sum_them_all.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x10-variadic_functions/0-sum_them_all.c): Returns the sum of all its paramters.
-- [1-print_numbers.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x10-variadic_functions/1-print_numbers.c): Prints numbers, followed by a new line.
+- [x] [0-sum_them_all.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x10-variadic_functions/0-sum_them_all.c): Returns the sum of all its paramters.
+- [x] [1-print_numbers.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x10-variadic_functions/1-print_numbers.c): Prints numbers, followed by a new line.
 	- The paramter `separator` is the string to be printed between numbers.
 	- The paramter `n` is the number of integers passed to the function.
-- [2-print_strings.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x10-variadic_functions/2-print_strings.c): Prints strings, followed by a new line.
+- [x] [2-print_strings.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x10-variadic_functions/2-print_strings.c): Prints strings, followed by a new line.
 	- The parameter `separator` is the string to be printed between the strings.
 	- The parameter `n` is the number of strings passed to the functio
-- [3-print_all.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x10-variadic_functions/3-print_all.c): rints anything.
+- [x] [3-print_all.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x10-variadic_functions/3-print_all.c): rints anything.
 	- Usage: `print_all("ceis", 'H', 0, "lberton");`
 	- The paramter `format` is a list of types of arguments passed to the function (`c`:`char`, `i`:`int`, `f`:`float`, `s`:`char *` (if the string is `NULL`, `(nil)` is printed instead))
 	- Any other character is ignored.
