@@ -16,20 +16,20 @@ C custom function that writes a character to `stdout`, provided by Alx.
 
 > Each file contains the solution to a task in the project.
 
-- [0-create_array.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/0-create_array.c): Returns a pointer to a newly-allocated space in memory containing an array of characters.
+- [x] [0-create_array.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/0-create_array.c): Returns a pointer to a newly-allocated space in memory containing an array of characters.
 	- The array of characters is initialized to the parameter `c`.
-- [1-strdup.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/1-strdup.c): Returns a pointer to a newly-allocated space in memory containing a copy of the string passed as parameter.
+- [x] [1-strdup.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/1-strdup.c): Returns a pointer to a newly-allocated space in memory containing a copy of the string passed as parameter.
 	- Returns a pointer to a new string which is a duplicate of the string `str`.
 	- Memory for the new string is obtained with `malloc` and can be freed with `free`.
-- [2-str_concat.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/2-str_concat.c): Returns a pointer to a newly-allocated space in memory containing the concatenation of two strings passed as parameters.
+- [x] [2-str_concat.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/2-str_concat.c): Returns a pointer to a newly-allocated space in memory containing the concatenation of two strings passed as parameters.
 	- The returned pointer contains the contents of `s1` followed by `s2` and is null-terminated.
 	- The function treats `NULL` as an empty string.
-- [3-alloc_grid.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/3-alloc_grid.c): Returns a pointer to a newly-allocated space in memory containing a two-dimensional array of integers.
+- [x] [3-alloc_grid.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/3-alloc_grid.c): Returns a pointer to a newly-allocated space in memory containing a two-dimensional array of integers.
 	- Each element of the two-dimensional array is initialized to `0`.
-- [4-free_grid.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/4-free_grid.c): Frees a two-dimensional array previsouly created by the `alloc_grid` function defined in `3-alloc_grid.c`.
-- [100-argstostr.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/100-argstostr.c): Returns a pointer to a newly-allocated space in memory containing the concatenation of all the arguments of the program.
+- [x] [4-free_grid.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/4-free_grid.c): Frees a two-dimensional array previsouly created by the `alloc_grid` function defined in `3-alloc_grid.c`.
+- [x] [100-argstostr.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/100-argstostr.c): Returns a pointer to a newly-allocated space in memory containing the concatenation of all the arguments of the program.
 	- Each argument is followed by a `\n` in the new string.
-- [101-strtow.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/101-strtow.c): Splits a string into words.
+- [ ] [101-strtow.c](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x0B-malloc_free/101-strtow.c): Splits a string into words.
 	 - Returns a pointer to a newly-allocated space in memory containing an array of strings (words).
 	- Each element of the array of strings contains a single word, null-terminated.
 	- The last element of the returned array is `NULL`.
