@@ -37,6 +37,7 @@ In this repository, each folder illustrates an essential concept of programming,
 - [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/Ebube-Ochemba/monty): `collaboration`
 - [0x1A. C - Hash tables](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x1A-hash_tables)
 - [0x1B. C - Sorting algorithms & Big O](https://github.com/Ebube-Ochemba/sorting_algorithms): `collaboration`
+- [0x1C. C - Makefiles](https://github.com/Ebube-Ochemba/alx-low_level_programming/tree/master/0x1C-makefiles)
 
 ## Environment
 
