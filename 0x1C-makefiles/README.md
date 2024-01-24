@@ -16,11 +16,11 @@ I learnt about what `make`, Makefiles are, also when, why and how to use Makefil
 
 > Each file contains the solution to a task in the project.
 
-- [ ] [0-Makefile](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/0-Makefile):
-- [ ] [1-Makefile](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/1-Makefile):
-- [ ] [2-Makefile](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/2-Makefile):
-- [ ] [3-Makefile](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/3-Makefile):
-- [ ] [4-Makefile](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/4-Makefile):
+- [x] [0-Makefile](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/0-Makefile):
+- [x] [1-Makefile](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/1-Makefile):
+- [x] [2-Makefile](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/2-Makefile):
+- [x] [3-Makefile](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/3-Makefile):
+- [x] [4-Makefile](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/4-Makefile):
 - [ ] [5-island_perimeter.py](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/5-island_perimeter.py):
 - [ ] [](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1C-makefiles/):
 
