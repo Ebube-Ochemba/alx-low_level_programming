@@ -29,4 +29,5 @@ I learnt about Search Algorithms; linear search, binary search and what the best
 - [ ] [](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1E-search_algorithms/):
 - [ ] [](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1E-search_algorithms/):
 
+> [search_algos.h](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1E-search_algorithms/search_algos.h): A Header file containing prototypes for all functions written in the project.
 > [test_files](https://github.com/Ebube-Ochemba/alx-low_level_programming/blob/master/0x1E-search_algorithms/test_files): A folder of test files. Provided by Alx.
