@@ -21,7 +21,6 @@ int interpolation_search(int *array, size_t size, int value)
 
 	low = 0;
 	high = size - 1;
-	pos;
 
 	/* Perform interpolation search */
 	while (low <= high && value >= array[low] && value <= array[high])
@@ -46,10 +45,7 @@ int interpolation_search(int *array, size_t size, int value)
 			high = pos - 1;
 	}
 
-	/* Check if the probe position is out of range */
-	if (pos < size)
-	printf("Value checked array[%lu] is out of range\n", pos);
-
 	/* Value not found */
+	printf("Value checked array[%lu] is out of range\n", pos);
 	return (-1);
 }
