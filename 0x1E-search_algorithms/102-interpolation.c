@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "search_algos.h"
 
 /**
  * interpolation_search - Searches for a value in a sorted array of integers
@@ -15,7 +15,7 @@ int interpolation_search(int *array, size_t size, int value)
 	size_t low = 0, high = size - 1, pos;
 	double ratio, difference;
 
-    /* Check if the array is NULL */
+	/* Check if the array is NULL */
 	if (!array || !size || !value)
 		return (-1);
 
