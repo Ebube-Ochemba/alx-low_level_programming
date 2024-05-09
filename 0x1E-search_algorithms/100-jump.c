@@ -21,7 +21,7 @@ int jump_search(int *array, size_t size, int value)
 	step = (size_t)sqrt(size);
 
 	/* The Big Stepper: Find the block where the value may be located */
-	for (prev = 0; prev < size && array[prev] < value; prev+= step)
+	for (prev = 0; prev < size && array[prev] < value; prev += step)
 	{
 		/* Print the value checked at each step */
 		printf("Value checked array[%lu] = [%d]\n", prev, array[prev]);
