@@ -35,11 +35,10 @@ void print_array(int *array, size_t start, size_t end)
     for (idx = start; idx <= end; idx++)
     {
         printf("%d", array[idx]);
-        if (idx != end)
-			printf("%i, ", array[idx]);
-		else
-			printf("%i\n", array[idx]);
+        if (idx < end)
+            printf(", ");
     }
+    printf("\n");
 }
 
 /**
