@@ -1,6 +1,6 @@
 #include "search_algos.h"
 
-int bin_sch(int *array, size_t low, size_t high, int value);
+int bin_search(int *array, size_t low, size_t high, int value);
 
 /**
  * exponential_search - Searches for a value in a sorted array of integers
@@ -14,27 +14,29 @@ int bin_sch(int *array, size_t low, size_t high, int value);
  */
 int exponential_search(int *array, size_t size, int value)
 {
-	size_t bnd = 1;
+	size_t bnd = 0, high;
 
 	/* Check if the array is NULL */
 	if (!array || !size || !value)
 		return (-1);
 
-	/* Find the range for binary search */
-	while (bnd < size && array[bnd] <= value)
+	if (array[bnd] != value)
 	{
-		printf("Value checked array[%lu] = [%d]\n", bnd, array[bnd]);
-		bnd *= 2;
+		/* Find the range for binary search */
+		for (bnd = 1; bnd < size && array[bnd] <= value; bnd *= 2)
+			printf("Value checked array[%lu] = [%d]\n", bnd, array[bnd]);
 	}
 
+	high = (bnd < size - 1) ? bnd : size - 1;
+	printf("Value found between indexes [%ld] and [%ld]\n", bnd / 2, high);
+
 	/* Perform binary search in the found range */
-	printf("Value found between indexes [%lu] and [%lu]\n", bnd / 2, bnd - 1);
-	return (bin_sch(array, bnd / 2, (bnd < size - 1) ? bnd : size - 1, value));
+	return (bin_search(array, bnd / 2, high, value));
 }
 
 
 /**
- * bin_sch - Searches for a value in a sorted array of integers
+ * bin_search - Searches for a value in a sorted array of integers
  *                 using the Binary search algorithm.
  * @array: Pointer to the first element of the array to search in.
  * @low: The lowest index of the subarray.
@@ -43,7 +45,7 @@ int exponential_search(int *array, size_t size, int value)
  *
  * Return: The index where the value is located, or -1 if not found.
  */
-int bin_sch(int *array, size_t low, size_t high, int value)
+int bin_search(int *array, size_t low, size_t high, int value)
 {
 	size_t idx, mid;
 
