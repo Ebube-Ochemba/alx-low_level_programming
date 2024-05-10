@@ -3,7 +3,6 @@
 void print_array(int *array, size_t start, size_t end);
 int adv_bin_recursive(int *array, size_t left, size_t right, int value);
 
-
 /**
  * advanced_binary - Searches for a value in a sorted array of integers
  *                   using the Advanced Binary search algorithm.
@@ -36,10 +35,11 @@ void print_array(int *array, size_t start, size_t end)
     for (idx = start; idx <= end; idx++)
     {
         printf("%d", array[idx]);
-        if (idx < end)
-            printf(", ");
+        if (idx != end)
+			printf("%i, ", array[idx]);
+		else
+			printf("%i\n", array[idx]);
     }
-    printf("\n");
 }
 
 /**
