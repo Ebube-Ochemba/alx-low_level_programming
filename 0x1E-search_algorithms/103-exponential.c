@@ -14,27 +14,27 @@ int bin_sch(int *array, size_t low, size_t high, int value);
  */
 int exponential_search(int *array, size_t size, int value)
 {
-	size_t bound = 1;
+	size_t bnd = 1;
 
 	/* Check if the array is NULL */
-	if (!array)
+	if (!array || !size || !value)
 		return (-1);
 
 	/* Find the range for binary search */
-	while (bound < size && array[bound] < value)
+	while (bnd < size && array[bnd] < value)
 	{
-		printf("Value checked array[%lu] = [%d]\n", bound, array[bound]);
-		bound *= 2;
+		printf("Value checked array[%lu] = [%d]\n", bnd, array[bnd]);
+		bnd *= 2;
 	}
 
 	/* Perform binary search in the found range */
-	printf("Value found between indexes [%lu] and [%lu]\n", bound / 2, bound - 1);
-	return (bin_sch(array, bound / 2, (bound < size - 1) ? bound : size - 1, value));
+	printf("Value found between indexes [%lu] and [%lu]\n", bnd / 2, bnd - 1);
+	return (bin_sch(array, bnd / 2, (bnd < size - 1) ? bnd : size - 1, value));
 }
 
 
 /**
- * binary_search - Searches for a value in a sorted array of integers
+ * bin_sch - Searches for a value in a sorted array of integers
  *                 using the Binary search algorithm.
  * @array: Pointer to the first element of the array to search in.
  * @low: The lowest index of the subarray.
