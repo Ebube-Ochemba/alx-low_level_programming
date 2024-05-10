@@ -21,7 +21,7 @@ int exponential_search(int *array, size_t size, int value)
 		return (-1);
 
 	/* Find the range for binary search */
-	while (bnd < size && array[bnd] < value)
+	while (bnd < size && array[bnd] <= value)
 	{
 		printf("Value checked array[%lu] = [%d]\n", bnd, array[bnd]);
 		bnd *= 2;
